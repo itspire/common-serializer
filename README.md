@@ -1,3 +1,3 @@
-# serializer-common
+# Itspire - Serializer Common
 
-Itspire Serializer Common Classes
+This library follows the PSR-12 convention.
