@@ -8,8 +8,10 @@
 
 declare(strict_types=1);
 
-if (!is_file($autoloadFile = 'vendor/autoload.php')) {
-    throw new \RuntimeException('Did not find vendor/autoload.php. Did you run "composer install --dev"?');
-}
+namespace Itspire\Serializer\Common\Test\Fixtures\Model\Api\Enum;
 
-require $autoloadFile;
+use Itspire\Serializer\Common\Model\Api\Enum\AbstractApiEnum;
+
+class DummyEnum extends AbstractApiEnum
+{
+}

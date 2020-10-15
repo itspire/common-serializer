@@ -25,9 +25,7 @@
             <directory>src/main/php</directory>
             <exclude>
                 <directory suffix="Interface.php">src/main/php</directory>
-                <directory>src/main/php/Model</directory>
                 <directory>src/test/php</directory>
-                <directory>src/test/resources</directory>
             </exclude>
         </whitelist>
     </filter>

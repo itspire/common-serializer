@@ -5,6 +5,9 @@
   ~ All Right Reserved.
   -->
 
-<test_enums>
-    <test_enum code="TEST1" description="test1" />
-</test_enums>
+<result>
+    <elements>
+        <entry code="TEST" description="test" />
+        <entry code="TEST1" description="test1" />
+    </elements>
+</result>
