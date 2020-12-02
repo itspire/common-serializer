@@ -8,10 +8,10 @@
 
 declare(strict_types=1);
 
-namespace Itspire\Serializer\Common\Test\Fixtures\Model\Api\Enum;
+namespace Itspire\Common\Serializer\Test\Fixtures\Enum;
 
-use Itspire\Serializer\Common\Model\Api\Enum\AbstractApiEnum;
+use Itspire\Common\Serializer\Enum\AbstractSerializableEnum;
 
-class TestBaseApiEnum extends AbstractApiEnum
+class TestBaseApiEnum extends AbstractSerializableEnum
 {
 }

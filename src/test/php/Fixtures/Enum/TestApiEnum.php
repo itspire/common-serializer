@@ -8,12 +8,12 @@
 
 declare(strict_types=1);
 
-namespace Itspire\Serializer\Common\Test\Fixtures\Model\Api\Enum;
+namespace Itspire\Common\Serializer\Test\Fixtures\Enum;
 
-use Itspire\Serializer\Common\Model\Api\Enum\AbstractApiEnum;
+use Itspire\Common\Serializer\Enum\AbstractSerializableEnum;
 use JMS\Serializer\Annotation as Serializer;
 
 /** @Serializer\XmlRoot("test_enum") */
-class TestApiEnum extends AbstractApiEnum
+class TestApiEnum extends AbstractSerializableEnum
 {
 }

@@ -8,12 +8,12 @@
 
 declare(strict_types=1);
 
-namespace Itspire\Serializer\Common\Model\Api\Enum;
+namespace Itspire\Common\Serializer\Enum;
 
 use Itspire\Common\Util\EquatableTrait;
 use JMS\Serializer\Annotation as Serializer;
 
-abstract class AbstractApiEnum implements ApiEnumInterface
+abstract class AbstractSerializableEnum implements SerializableEnumInterface
 {
     use EquatableTrait;
 
@@ -38,7 +38,7 @@ abstract class AbstractApiEnum implements ApiEnumInterface
         return $this->code;
     }
 
-    public function setCode(string $code): ApiEnumInterface
+    public function setCode(string $code): SerializableEnumInterface
     {
         $this->code = $code;
 
@@ -50,7 +50,7 @@ abstract class AbstractApiEnum implements ApiEnumInterface
         return $this->description;
     }
 
-    public function setDescription(string $description): ApiEnumInterface
+    public function setDescription(string $description): SerializableEnumInterface
     {
         $this->description = $description;
 
